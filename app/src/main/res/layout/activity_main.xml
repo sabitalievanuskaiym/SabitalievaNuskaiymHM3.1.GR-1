@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edT_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_imput"
+        android:drawableStart="@drawable/ic_baseline_mail"
+        android:hint="@string/email"
+        android:drawablePadding="15dp"
+        android:padding="18dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edT_them"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="16dp"
+        android:background="@drawable/custom_imput"
+        android:drawableStart="@drawable/ic_baseline_dehaze_pl"
+        android:hint="@string/theme"
+        android:drawablePadding="15dp"
+        android:padding="18dp"
+        android:textSize="24sp"
+        android:text="Тема"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/edT_sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="16dp"
+        android:background="@drawable/custom_imput"
+        android:drawableStart="@drawable/ic_baseline_chat_bubble_outline_che"
+        android:drawablePadding="15dp"
+        android:hint="@string/tex"
+        android:padding="18dp"
+        android:textSize="24sp"
+        android:textStyle="normal" />
+
+    <Button
+
+        android:id="@+id/btn_Nex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:padding="14dp"
+        android:text="@string/send"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:paddingStart="160dp"
+        android:layout_marginHorizontal="15dp"
+        android:background="@color/black"
+        android:textSize="20sp" />
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginHorizontal = "72dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/img_1"
+        />
+</LinearLayout>
